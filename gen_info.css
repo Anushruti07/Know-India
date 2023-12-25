@@ -1,0 +1,10 @@
+.general{
+    background:#fff;
+    padding:20px 0 100px 0;
+    text-align:center;
+}
+.slidearea{
+    background:fixed url('t1.jpg') no-repeat;
+    padding:200px;
+    background-size:cover;
+}
