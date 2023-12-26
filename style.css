@@ -20,10 +20,17 @@ body{
 }
 .head{
     background:#D42755;
-    padding:15px;
-    text-align:right;
+    padding:0px;
+    text-align:left;
 }
-.menu{
+.nav-link{
+    color:#fff !important;
+}
+.nav-link:hover{
+    color:#000 !important;
+}
+.box1{
+    background:#D42755;
 }
 .box1 ul{
     list-style:none;
@@ -46,10 +53,13 @@ body{
 }
 .foot{
     background:url('bg3.jpg') scroll no-repeat;
-    padding:50px 0 20px 0;
+    padding:0px 0 20px 0;
     background-size:cover;
     color:#fff;
     text-align:center;
+}
+.foot1{
+    padding:50px 0 0 0;
 }
 .foot h1{
     text-align:center;
@@ -61,7 +71,7 @@ body{
 .foot1  hr{
     background:#fff;
     height:2px;
-    width:400px;
+    width:360px;
 }
 .foot1 a:link,.foot1 a:visited{
     text-decoration:none;
@@ -73,6 +83,9 @@ body{
 .foot1 a:hover{
     color:#000;
     border:solid 1px #000;
+}
+.foot2{
+    padding:50px 0 0 0;
 }
 .foot2  hr{
     background:#fff;

@@ -1,5 +1,5 @@
 .mainarea{
-    background:url('bg.jpg') no-repeat fixed;
+    background:url('bg.jpg') no-repeat;
     padding-top:250px;
     padding-bottom: 50px;
     background-size:cover;
@@ -99,9 +99,9 @@
     transition:all 0.2s;
 }
 .box44 img{
-    width:90%;
-    border-radius:100px;
+    width:100%;
     height:110px;
+    border-radius:100%;
     transition:all 0.2s;
 }
 .box44 img:hover{
@@ -204,7 +204,7 @@
     color:darkgreen;
     font-weight:700;
 }
-.box6 img{
+.box7 img{
     width:100%;
     height:180px;
     border-radius:15px;
