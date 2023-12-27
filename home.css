@@ -55,27 +55,26 @@
 }
 .box3 a:link,.box3 a:visited{
     text-decoration:none;
-    color:black;
+    color:rgb(60,60,60,60);
 }
 .celebration{
     background:#fff;
-    padding:50px;
+    padding:50px 0 50px 0;
     text-align:center;
     border-top:solid #A0BB2D 3px;
 }
 .celebration h2{
     padding-bottom:40px;
-    color:darkgreen;
+    padding-bottom:40px;
+    color:rgb(60,60,60,60);
     font-weight:700;
 }
 .box:first-child{
     background:#fff;
-    padding-right:30px;
-    border-right:solid 2px black;
+    border-right:solid 2px rgb(60,60,60,60);
 }
 .box:nth-child(2){
     background:#fff;
-    padding-left:30px;
 }
 .box4 h1{
     color:darkorange;
@@ -93,7 +92,7 @@
     border-radius:20px;
 }
 .box44{
-    width:80%;
+    width:100%;
     background:#fff;
     margin-bottom:10px;
     transition:all 0.2s;
@@ -121,7 +120,7 @@
 }
 .contents h2{
     padding-bottom:40px;
-    color:darkgreen;
+    color:rgb(60,60,60,60);
     font-weight:700;
 }
 .box5{
@@ -163,16 +162,17 @@
 }
 .maparea h2{
     padding-bottom:40px;
-    color:darkgreen;
+    color:rgb(60,60,60,60);
     font-weight:700;
 }
 .bg1{
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url('m2.jpg') ;
-    padding:100px;
+    padding:100px 0 100px 0;
+    background-attachment:fixed;
     background-size:cover;
+    text-align:center;
 }
 .bg1 h4{
-    padding:0;
 }
 .bg1 em{
     color:#fff;
@@ -183,12 +183,13 @@
 }
 .bg1 ul li{
     padding-bottom:10px;
-    border-bottom:solid 2px #fff;
+    border-bottom:solid 1px #fff;
 }
 .bg1 ul li a:link,.bg1 ul li a:visited{
     text-decoration:none;
     color:#fff;
-    padding:0px 0px;
+    font-size:22px;
+    padding:10px 0px 0 0;
     display:block;
 }
 .bg1 ul li a:hover{
@@ -201,7 +202,7 @@
 }
 .galleryarea h2{
     padding-bottom:40px;
-    color:darkgreen;
+    color:rgb(60,60,60,60);
     font-weight:700;
 }
 .box7 img{
