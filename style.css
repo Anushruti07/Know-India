@@ -14,14 +14,14 @@ body{
     background-size:cover;
     position:fixed;
     top:0;
-    left:150px;
+    left:50px;
     z-index:2000;
     border-radius:0 0 8px 8px;
     box-shadow: 1px -1px 5px 5px rgba(128,128,128,0.75);
 }
 .head{
     background:#D42755;
-    padding:0px;
+    padding:8px 0 8px 0;
     text-align:left;
 }
 .nav-link{
@@ -99,17 +99,24 @@ body{
     margin-top:30px;
 }
 .foot2 ul li{
-    font-size:20px;
 }
 .foot2 ul li a:link,.foot2 ul li a:visited{
     text-decoration:none;
     color:#fff;
     background:transparent;
-    padding:0 10px;
+    padding:20px;
     display:block;
 }
 .foot2 ul li a:hover{
     color:#000;
+}
+.box9{
+    font-size:40px;
+    background:;
+    text-align:center;
+}
+.foot3{
+    padding:40px 0 0 0;
 }
 .foot3 ul{
     list-style:none;
@@ -122,12 +129,20 @@ body{
 .foot3 ul li a:link,.foot3 ul li a:visited{
     text-decoration:#fff;
     color:#fff;
+    font-size:14px;
     background:transparent;
-    padding:0px 15px;
+    padding:0px 10px;
     text-align:left;
     border-right:solid 2px #fff;
     display:block;
 }
+.foot3 ul li:last-child a:link,.foot3 ul li:last-child a:visited{
+    border:none;
+}
 .foot3 ul li a:hover{
     color:#D42755;
+}
+.foot4{
+    padding:30px 0 0 0;
+    text-align:center;
 }

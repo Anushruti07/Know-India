@@ -1,10 +1,50 @@
+
+.slidearea{
+    background:fixed url('m2.jpg') no-repeat;
+    padding:200px 0 200px 0;
+    background-size:cover;
+}
 .districts{
     background:#fff;
     padding:20px 0 100px 0;
+    text-align:;
+}
+.districts h2{
     text-align:center;
 }
-.slidearea{
-    background:fixed url('m2.jpg') no-repeat;
-    padding:200px;
-    background-size:cover;
+.districts hr{
+    background:green;
+    width:80px;
+    height:2px;
+}
+.dis1 h4{
+}
+.dis1 em{
+    color:#000;
+}
+.dis1 ul{
+    list-style:none;
+    margin:0;
+    padding:10px 20px 0 20px;
+}
+.dis1 ul li{
+    position:relative;
+    padding-bottom:20px;
+    border-bottom:solid 1px lightgrey;
+}
+.dis1 ul li a:link,.dis1 ul li a:visited{
+    text-decoration:none;
+    color:#000;
+    font-size:18px;
+    padding:20px 0 0 0;
+    display:block;
+}
+.dis1 ul li a:hover{
+    color:#D42755;
+}
+.dis1 ul li h4 li{
+    font-size:25px;
+    position:absolute;
+    border:none;
+    right:0;
 }

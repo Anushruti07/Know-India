@@ -1,10 +1,35 @@
+
+.slidearea{
+    background:fixed url('g1.jpg') no-repeat;
+    padding:200px 0 200px 0;
+    background-size:cover;
+}
 .identity{
     background:#fff;
     padding:20px 0 100px 0;
     text-align:center;
 }
-.slidearea{
-    background:fixed url('g1.jpg') no-repeat;
-    padding:200px;
-    background-size:cover;
+.identity h2{
+    padding-bottom:30px;
+}
+.identity p{
+    text-align:justify;
+    font-size:18px;
+}
+.identity hr{
+    background:green;
+    height:1px;
+    width:100px;
+}
+.id1{
+    background:#fff;
+    padding:10px;
+}
+.id1 img{
+    border-radius:100%;
+    transition:all 0.2s;
+}
+.id1 img:hover{
+    transform:scale(1.05);
+    box-shadow: 0px 0px 15px 3px rgb(211, 211, 211,0.75);
 }
