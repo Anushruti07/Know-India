@@ -1,4 +1,5 @@
 *{
+    background:;
     font-family: 'Nanum Myeongjo', serif;
     font-family: 'Open Sans', sans-serif;
 
@@ -6,6 +7,9 @@
 body{
     margin:0;
     padding:0;
+}
+h2{
+    font-family:'Times New Roman', Times, serif;
 }
 .toplogo{
     width:150px;
@@ -52,6 +56,26 @@ body{
 .box1 ul li a:hover{
     color:#000;
 }
+.bread{
+    background:;
+    font-weight:600;
+    text-align:center;
+    border-bottom:solid 1px lightgrey;
+}
+.bread p{
+    margin:0;
+    padding:10px 0;
+}
+.bread a:link,.bread a:visited{
+    text-decoration:none;
+    color:#000;
+}
+.bread a:hover{
+    text-decoration:underline;
+}
+.arr{
+    padding:30px 0 0px 0;
+}
 .foot{
     background:url('bg3.jpg') scroll no-repeat;
     padding:0px 0 20px 0;
@@ -93,27 +117,28 @@ body{
     height:2px;
     width:250px;
 }
-.foot2 ul{
-    list-style:none;
-    padding:0;
-    margin-top:30px;
-}
-.foot2 ul li{
-}
-.foot2 ul li a:link,.foot2 ul li a:visited{
-    text-decoration:none;
-    color:#fff;
-    background:transparent;
-    padding:20px;
-    display:block;
-}
-.foot2 ul li a:hover{
-    color:#000;
-}
 .box9{
-    font-size:40px;
+    font-size:30px;
     background:;
     text-align:center;
+}
+.box9 ul{
+    list-style:none;
+    margin:0;
+    padding:0 0 0 100px;
+}
+.box9 ul li{
+}
+.box9 ul a:link li,.box9 ul a:visited li{
+    background:transparent;
+    color:#fff;
+    text-decoration:none;
+    padding:10px;
+    border-radius:10px;
+    display:block;
+}
+.box9 ul a:hover li{
+    color:#000;
 }
 .foot3{
     padding:40px 0 0 0;

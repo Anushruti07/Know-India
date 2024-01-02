@@ -1,25 +1,29 @@
 
 .slidearea{
     background:fixed url('g1.jpg') no-repeat;
-    padding:200px 0 200px 0;
+    padding:100px 0 100px 0;
     background-size:cover;
 }
 .identity{
-    background:#fff;
-    padding:20px 0 100px 0;
+    background:;
+    padding:0px 0 50px 0;
     text-align:center;
 }
+.arr{
+    padding:30px 0 0px 0;
+}
 .identity h2{
-    padding-bottom:30px;
+    padding:0px 0 0 0;
+    font-weight:700;
+    color:#D42755;
+}
+.identity hr{
+    background:#000;
+    width:50px;
+    height:1px;
 }
 .identity p{
     text-align:justify;
-    font-size:18px;
-}
-.identity hr{
-    background:green;
-    height:1px;
-    width:100px;
 }
 .id1{
     background:#fff;

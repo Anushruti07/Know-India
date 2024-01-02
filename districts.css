@@ -1,21 +1,26 @@
 
 .slidearea{
     background:fixed url('m2.jpg') no-repeat;
-    padding:200px 0 200px 0;
+    padding:100px 0 100px 0;
     background-size:cover;
 }
 .districts{
     background:#fff;
-    padding:20px 0 100px 0;
-    text-align:;
-}
-.districts h2{
+    padding:0px 0 50px 0;
     text-align:center;
 }
+.districts h2{
+    padding: 0 0 0;
+    font-weight:700;
+    color:#D42755;
+}
 .districts hr{
-    background:green;
-    width:80px;
-    height:2px;
+    background:#000;
+    width:50px;
+    height:1px;
+}
+.dis1{
+    text-align:left;
 }
 .dis1 h4{
 }

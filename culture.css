@@ -1,0 +1,129 @@
+.common{
+    padding:50px 0;
+}
+.common h2{
+    padding:0px 0 0 0;
+    font-weight:700;
+    color:#D42755;
+    text-align:center;
+}
+.common hr{
+    background:#000;
+    width:100px;
+    height:1px;
+}
+.common p{
+    text-align:justify;
+}
+.slidearea{
+    background:#fff;
+    background-size:cover;
+}
+.carousel-item{
+    position:relative;
+}
+.carousel-caption h2{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#fff;
+    font-size:70px;
+    font-weight:700;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.9);
+    margin-bottom:200px;
+}
+.d-block{
+    height:580px;
+}
+.culture{
+    background:#F4F0E4;
+    padding:0px 0 50px 0;
+}
+.c1{
+    background:#F4F0E4;
+}
+.carea1{
+    background:#fff;
+    padding:10px;
+    text-align:center;
+    border-radius:15px;
+    margin-top:0px;
+}
+.carea1 img{
+    width:100%;
+    height:600px;
+}
+.carea4{
+    background-image:linear-gradient(rgb(211,39,85,20%),	rgb(212, 39, 85,80%)),url("food/f3.jpg");
+    padding:60px 60px 30px 60px;
+    background-attachment:fixed;
+    background-size:cover;
+}
+.carea11{
+    background:#fff;
+    padding:8px 8px 20px 8px;
+    text-align:center;
+    border-radius:10px;
+    margin-bottom:30px;
+}
+.carea11 h5{
+    padding:16px 0 10px 0;
+}
+.carea11 img{
+    width:100%;
+    height:200px;
+}
+.carea11 a:link,.carea11 a:visited{
+    text-decoration:none;
+    color:#fff;
+    background:#D42755;
+    padding:6px 15px;
+    border-radius:20px;
+    border:solid 1px #D42755;
+}
+.carea11 a:hover{
+    color:#D42755;
+    background:white;
+    border:solid 1px #D42755;
+}
+.carea2{
+    background:#F4F0E4;
+    padding:10px;
+    text-align:center;
+    border-radius:15px;
+    margin-top:0px;
+}
+.carea2 img{
+    width:100%;
+    height:550px;
+}
+.carea5{
+    background-image:linear-gradient(rgb(211,39,85,20%),	rgb(212, 39, 85,80%)),url("dance/d4.jpg");
+    padding:60px 60px 30px 60px;
+    background-attachment:fixed;
+    background-size:cover;
+}
+.carea3{
+    background:#fff;
+    padding:10px;
+    text-align:center;
+    border-radius:15px;
+    margin-top:0px;
+}
+.carea3 img{
+    width:100%;
+    height:600px;
+}
+.carea6{
+    background-image:linear-gradient(rgb(211,39,85,20%),	rgb(212, 39, 85,80%)),url("monuments/m1.jpg");
+    padding:60px 60px 30px 60px;
+    background-attachment:fixed;
+    background-size:cover;
+}
+.photo{
+    background:#fff;
+    padding:30px 0 30px 0;
+    position:relative;
+}
+.photo img{
+    width:100%;
+    border-radius:10px;
+}

@@ -1,21 +1,30 @@
 
 .slidearea{
-    background:fixed url('m1.jpg') no-repeat;
+    background:fixed url('g1.jpg') no-repeat;
     padding:100px 0 100px 0;
     background-size:cover;
 }
-.gallery{
+.profile{
     background:#fff;
     padding:0px 0 50px 0;
     text-align:center;
 }
-.gallery h2{
+.arr{
+    padding:30px 0 0px 0;
+}
+.profile h2{
     padding:0px 0 0 0;
     font-weight:700;
     color:#D42755;
 }
-.gallery hr{
+.profile hr{
     background:#000;
     width:50px;
     height:1px;
+}
+.profile p{
+    text-align:justify;
+}
+.profile p:nth-child(3){
+    text-align:right;
 }
