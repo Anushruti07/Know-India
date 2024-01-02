@@ -25,6 +25,6 @@
 .profile p{
     text-align:justify;
 }
-.profile p:nth-child(3){
+.arr p:nth-child(6){
     text-align:right;
 }

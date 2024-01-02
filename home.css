@@ -4,6 +4,7 @@
     padding-bottom: 50px;
     background-size:cover;
     text-align:center;
+    position: relative;
 }
 .box2{
     background:rgb(255,255,255,0.7);
@@ -44,18 +45,21 @@
 .box3{
     background:#fff;
     margin-bottom:40px;
-    transition:all 0.4s;
-}
-.box3:hover{
-    transform:scale(1.05);
 }
 .box3 img{
     width:30%;
     margin-bottom:5px;
+    transition:all 0.3s;
+}
+.box3 img:hover{
+    transform:scale(1.09);
 }
 .box3 a:link,.box3 a:visited{
     text-decoration:none;
     color:rgb(60,60,60,60);
+}
+.box3 a:hover{
+    color:#D42755;
 }
 .celebration{
     background:#fff;
@@ -120,6 +124,7 @@
 .contents{
     background:#fff;
     padding:50px;
+    background-size: cover;
     text-align:center;
     border-top:solid #A0BB2D 3px;
 }
@@ -129,6 +134,7 @@
     font-weight:700;
 }
 .box5{
+    background:#fff;
     box-shadow: 7px 7px 5px -5px rgba(0,0,0,0.75);
     border-radius:10px;
     padding-bottom:30px;
