@@ -1,11 +1,6 @@
 
-.slidearea{
-    background:fixed url('g1.jpg') no-repeat;
-    padding:100px 0 100px 0;
-    background-size:cover;
-}
 .identity{
-    background:;
+    background:#fff;
     padding:0px 0 50px 0;
     text-align:center;
 }
@@ -23,7 +18,10 @@
     height:1px;
 }
 .identity p{
-    text-align:justify;
+    text-align:center;
+}
+.arr p{
+    text-align: justify;
 }
 .id1{
     background:#fff;
@@ -32,8 +30,12 @@
 .id1 img{
     border-radius:100%;
     transition:all 0.2s;
+    box-shadow: 7px 7px 5px -5px rgba(0,0,0,0.75);
 }
 .id1 img:hover{
     transform:scale(1.05);
-    box-shadow: 0px 0px 15px 3px rgb(211, 211, 211,0.75);
+    box-shadow: 0px 0px 15px 3px rgb(0,0,0,0.4);
+}
+.id1 h5{
+    padding-top:10px;
 }

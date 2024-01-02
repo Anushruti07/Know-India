@@ -1,10 +1,10 @@
-.mainarea{
-    background:url('bg.jpg') no-repeat;
-    padding-top:250px;
-    padding-bottom: 50px;
+
+.slidearea{
+    background:#fff;
     background-size:cover;
-    text-align:center;
-    position: relative;
+}
+.d-block{
+    height:px;
 }
 .box2{
     background:rgb(255,255,255,0.7);
@@ -38,12 +38,12 @@
     border:solid 1px #D42755;
 }
 .list{
-    background:#fff;
+    background:#F4F0E4;
     padding:100px 0 50px 0;
     text-align:center;
 }
 .box3{
-    background:#fff;
+    background:#F4F0E4;
     margin-bottom:40px;
 }
 .box3 img{
@@ -120,17 +120,17 @@
     text-decoration:none;
     color:#000;
 }
-
 .contents{
-    background:#fff;
-    padding:50px;
-    background-size: cover;
+    background-image:url("bg_india.png");
+    padding:60px 60px 30px 60px;
+    background-attachment:fixed;
+    background-size:cover;
     text-align:center;
     border-top:solid #A0BB2D 3px;
 }
 .contents h2{
     padding-bottom:40px;
-    color:rgb(60,60,60,60);
+    color:#000;
     font-weight:700;
 }
 .box5{
@@ -142,27 +142,31 @@
     transition:all 0.3s;
 
 }
-.box5:hover{
-    transform:scale(1.02);
+.box5{
+    background:#fff;
+    padding:8px 8px 20px 8px;
+    text-align:center;
+    border-radius:10px;
+    margin-bottom:30px;
+}
+.box5 h5{
+    padding:16px 0 10px 0;
 }
 .box5 img{
     width:100%;
     height:200px;
-    border-radius:10px 10px 0 0;
-}
-.box5 h5{
-    padding:20px;
 }
 .box5 a:link,.box5 a:visited{
     text-decoration:none;
-    color:white;
+    color:#fff;
     background:#D42755;
-    padding:8px 20px;
+    padding:6px 15px;
     border-radius:20px;
+    border:solid 1px #D42755;
 }
 .box5 a:hover{
     color:#D42755;
-    background:#fff;
+    background:white;
     border:solid 1px #D42755;
 }
 #maparea{

@@ -1,9 +1,4 @@
 
-.slidearea{
-    background:fixed url('g1.jpg') no-repeat;
-    padding:100px 0 100px 0;
-    background-size:cover;
-}
 .profile{
     background:#fff;
     padding:0px 0 50px 0;
@@ -22,7 +17,7 @@
     width:50px;
     height:1px;
 }
-.profile p{
+.arr p{
     text-align:justify;
 }
 .arr p:nth-child(6){

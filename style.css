@@ -18,15 +18,25 @@ h2{
     background-size:cover;
     position:fixed;
     top:0;
-    left:50px;
+    left:20px;
     z-index:2000;
-    border-radius:0 0 8px 8px;
+    border-radius:0 0 5px 5px;
     box-shadow: 1px -1px 5px 5px rgba(128,128,128,0.75);
 }
 .head{
     background:#D42755;
     padding:8px 0 8px 0;
     text-align:left;
+}
+.head{
+    padding:10px 0 10px 0;
+    position:sticky;
+    top:0;
+    z-index:1500;
+    box-shadow: 1px -1px 5px 5px rgba(128,128,128,0.75);
+}
+.navbar-toggler{
+    border:solid 1px rgb(0, 0,0,50%) !important;
 }
 .nav-link{
     color:#fff !important;
@@ -110,7 +120,9 @@ h2{
     border:solid 1px #000;
 }
 .foot2{
+    background:;
     padding:50px 0 0 0;
+    text-align: center;
 }
 .foot2  hr{
     background:#fff;
@@ -118,26 +130,40 @@ h2{
     width:250px;
 }
 .box9{
-    font-size:30px;
     background:;
     text-align:center;
 }
-.box9 ul{
-    list-style:none;
-    margin:0;
-    padding:0 0 0 100px;
-}
-.box9 ul li{
-}
-.box9 ul a:link li,.box9 ul a:visited li{
+.box9 a:link,.box9 a:visited{
     background:transparent;
     color:#fff;
-    text-decoration:none;
-    padding:10px;
-    border-radius:10px;
-    display:block;
 }
-.box9 ul a:hover li{
+.box9 a:hover{
+    color:#000;
+}
+.box9 table{
+    text-align:center;
+    font-size:35px;
+}
+.box9 table tr td{
+    padding:20px 35px;
+}
+.link{
+    background:transparent;
+    width:60px;
+    height:60px;
+    border-radius: 100%;
+    border:1px solid #fff;
+}
+.link:hover{
+    border:1px solid #000;
+}
+.fa{
+    text-decoration: none;
+    font-size:80px;
+    text-align:center;
+    border-radius: 100%;
+}
+.fa:hover{
     color:#000;
 }
 .foot3{
