@@ -1,7 +1,8 @@
 
-.slidearea{
-    background:#fff;
+.mainarea{
+    background:#fff url('bg.jpg')  no-repeat;
     background-size:cover;
+    padding:150px 0 150px 0;
 }
 .d-block{
     height:px;
@@ -9,7 +10,7 @@
 .box2{
     background:rgb(255,255,255,0.7);
     padding:30px 0;
-    border-radius:20px;
+    border-radius:15px;
     text-align:center;
     box-shadow: 7px 7px 5px -5px rgba(0,0,0,0.75);
 }
@@ -38,12 +39,12 @@
     border:solid 1px #D42755;
 }
 .list{
-    background:#F4F0E4;
+    background:#fff;
     padding:100px 0 50px 0;
     text-align:center;
 }
 .box3{
-    background:#F4F0E4;
+    background:#fff;
     margin-bottom:40px;
 }
 .box3 img{
@@ -63,22 +64,26 @@
 }
 .celebration{
     background:#fff;
-    padding:50px 0 50px 0;
+    padding:40px 0 50px 0;
     text-align:center;
     border-top:solid #A0BB2D 3px;
 }
 .celebration h2{
-    padding-bottom:40px;
-    padding-bottom:20px;
-    color:rgb(60,60,60,60);
+    padding-bottom:0px;
     font-weight:700;
+    color:#D42755;
+}
+.celebration hr{
+    background:#000;
+    width:80px;
+    height:1px;
 }
 .box:first-child{
-    padding-top:20px;
+    padding-top:10px;
     background:#fff;
 }
 .box:nth-child(2){
-    padding-top:20px;
+    padding-top:10px;
     background:#fff;
 }
 .box4{
@@ -89,11 +94,13 @@
     color:darkorange;
     font-size:45px;
     font-weight:700;
+    font-family:'Times New Roman', Times, serif;
 }
 .box4 p{
     color:#0000CD;
     font-size:22px;
     font-weight:600;
+    font-family:'Times New Roman', Times, serif;
 }
 .box4 img{
     width:95%;
@@ -121,20 +128,25 @@
     color:#000;
 }
 .contents{
-    background-image:url("bg_india.png");
-    padding:60px 60px 30px 60px;
+    padding:40px 60px 30px 60px;
     background-attachment:fixed;
     background-size:cover;
     text-align:center;
     border-top:solid #A0BB2D 3px;
 }
 .contents h2{
-    padding-bottom:40px;
-    color:#000;
+    padding-bottom:0px;
     font-weight:700;
+    color:#D42755;
+}
+.contents hr{
+    background:#000;
+    width:80px;
+    height:1px;
 }
 .box5{
-    background:#fff;
+    background:rgb(255, 255, 255);
+    padding:0px 0px 20px 0px;
     box-shadow: 7px 7px 5px -5px rgba(0,0,0,0.75);
     border-radius:10px;
     padding-bottom:30px;
@@ -142,19 +154,13 @@
     transition:all 0.3s;
 
 }
-.box5{
-    background:#fff;
-    padding:8px 8px 20px 8px;
-    text-align:center;
-    border-radius:10px;
-    margin-bottom:30px;
-}
 .box5 h5{
     padding:16px 0 10px 0;
 }
 .box5 img{
     width:100%;
     height:200px;
+    border-radius:10px 10px 0 0;
 }
 .box5 a:link,.box5 a:visited{
     text-decoration:none;
@@ -171,14 +177,19 @@
 }
 #maparea{
     background:#fff;
-    padding:50px 0 0 0;
+    padding:40px 0 0 0;
     text-align:center;
     border-top:solid #A0BB2D 3px;
 }
 #maparea h2{
-    padding-bottom:40px;
-    color:rgb(60,60,60,60);
+    padding-bottom:0px;
     font-weight:700;
+    color:#D42755;
+}
+#maparea hr{
+    background:#000;
+    width:100px;
+    height:1px;
 }
 .bg1{
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url('m2.jpg') ;
@@ -223,13 +234,18 @@
 }
 .galleryarea{
     background:#fff;
-    padding:60px 60px 35px 60px;
+    padding:40px 60px 35px 60px;
     text-align:center;
 }
 .galleryarea h2{
-    padding-bottom:40px;
-    color:rgb(60,60,60,60);
+    padding-bottom:0px;
     font-weight:700;
+    color:#D42755;
+}
+.galleryarea hr{
+    background:#000;
+    width:100px;
+    height:1px;
 }
 .box7 img{
     width:100%;
